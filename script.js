@@ -35,7 +35,7 @@ values.forEach(function (value) {
 // We can loop the arrays with the method of "forEach".If you see the above code then we'll get to know that "forEach" actualy requires callback function.So this is forEach method which is going to be call this function and then the value of that function is been passed to forEach.As the forEach method calls this call-back function,in each iteration(repeat) it will pass the current element of an array as an arguement and we have specified that elemnt by "value" above so whenever this call-back function is been called it receives the current element of an array as an arguement.
 // In other words we use callback to tell the other higher order function that what to do.
 
-// <========How can we access the index of elements in arrays in this forEach method=======>
+// <========How can we access the index of elements in arrays in this forEach method?=======>
 
 // Whenever the callback function is been called with the help of "forEach" method then not the elements been passed to that function but also the index and arrays been passed too .For example "forEach.values(value,index,array)" .The first parameter alweays needs to be current element and 2nd parameter needs to be current index and the 3rd parameter needs to be the entire array that we looping into .
 
